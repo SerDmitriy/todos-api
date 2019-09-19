@@ -1,5 +1,5 @@
 const router  = (publicRouter) => {
-  publicRouter.use('/todo', require('./todos'))
+  publicRouter.use('/api', require('./api'))
 }
 
 module.exports = { router }
