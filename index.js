@@ -10,6 +10,6 @@ mongoose.connect('mongodb://localhost:27017/admin',
 
 app.use(cors());
 app.use(bodyParser());
-app.use(publicRouter);
+// app.use(publicRouter);
 
 app.listen(9999, () => console.log('server alive'));
